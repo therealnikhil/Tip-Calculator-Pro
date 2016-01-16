@@ -14,6 +14,7 @@
 		311D70D31C313D21008BAFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311D70D11C313D21008BAFAC /* LaunchScreen.storyboard */; };
 		311D70DE1C313D21008BAFAC /* tipsCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311D70DD1C313D21008BAFAC /* tipsCalculatorTests.swift */; };
 		311D70E91C313D21008BAFAC /* tipsCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311D70E81C313D21008BAFAC /* tipsCalculatorUITests.swift */; };
+		315B2FF31C39252B009AB82F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B2FF21C39252B009AB82F /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		311D70E41C313D21008BAFAC /* tipsCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		311D70E81C313D21008BAFAC /* tipsCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsCalculatorUITests.swift; sourceTree = "<group>"; };
 		311D70EA1C313D21008BAFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315B2FF21C39252B009AB82F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				311D70C81C313D21008BAFAC /* AppDelegate.swift */,
 				311D70CA1C313D21008BAFAC /* ViewController.swift */,
 				311D70CC1C313D21008BAFAC /* Main.storyboard */,
+				315B2FF21C39252B009AB82F /* TableViewController.swift */,
 				311D70CF1C313D21008BAFAC /* Assets.xcassets */,
 				311D70D11C313D21008BAFAC /* LaunchScreen.storyboard */,
 				311D70D41C313D21008BAFAC /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					311D70C41C313D21008BAFAC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9J33FGV6N4;
 					};
 					311D70D81C313D21008BAFAC = {
 						CreatedOnToolsVersion = 7.2;
@@ -257,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				311D70CB1C313D21008BAFAC /* ViewController.swift in Sources */,
+				315B2FF31C39252B009AB82F /* TableViewController.swift in Sources */,
 				311D70C91C313D21008BAFAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,10 +402,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tipsCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nn.tipsCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -408,10 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tipsCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nn.tipsCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -482,6 +495,7 @@
 				311D70EF1C313D21008BAFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311D70F01C313D21008BAFAC /* Build configuration list for PBXNativeTarget "tipsCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +504,7 @@
 				311D70F21C313D21008BAFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311D70F31C313D21008BAFAC /* Build configuration list for PBXNativeTarget "tipsCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +513,7 @@
 				311D70F51C313D21008BAFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
