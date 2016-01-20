@@ -1,6 +1,6 @@
- # Pre-work - Tip Calculator
+# Tip Calculator Pro
  
- Tip Calculator is an application for iOS where users can pre-set tip percentages and be told how much to pay according to the quality of service.
+Tip Calculator is an application for iOS where users can pre-set tip percentages and be told how much to pay according to the quality of service.
   
   Submitted by: Nikhil Nand Kumar
   
